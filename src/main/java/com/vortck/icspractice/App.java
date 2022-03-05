@@ -45,6 +45,7 @@ public class App {
 			break;
 		case 11: Eleven.main();
 			break;
+		case 12: Rectangle.main();
 	}
     }
 }
