@@ -7,7 +7,9 @@ public class App {
         
 	Scanner scanner = new Scanner(System.in);
 	System.out.println("Choose a program");
-	System.out.println("1 - AddNumbers, 2 - AvgMark, 3 - CubeSums, 4 - FindFactors, 5 - IntOrString, 6 - LastMultiple, 7 - PrintOddIndices, 8 - ReplaceLetter, 9 - Swap");
+	System.out.println("1 - AddNumbers, 2 - AvgMark, 3 - CubeSums, 4 - FindFactors, 5 - IntOrString");
+	System.out.println("6 - LastMultiple, 7 - PrintOddIndices, 8 - ReplaceLetter, 9 - Swap, 10 - FiftyPrimes");
+	System.out.println("11 - Eleven");
 	int prog = scanner.nextInt();
 
 	switch (prog) {
@@ -40,6 +42,8 @@ public class App {
 			break;
 		case 10:
 			FiftyPrimes.fiftyPrimes();
+			break;
+		case 11: Eleven.main();
 			break;
 	}
     }
