@@ -37,6 +37,10 @@ public class App {
 			break;
 		case 9: 
 			Swap.main();
+			break;
+		case 10:
+			FiftyPrimes.fiftyPrimes();
+			break;
 	}
     }
 }
