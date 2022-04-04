@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.vortck.icspractice</groupId>
+  <groupId>com.estyseesghosts.icspractice</groupId>
   <artifactId>ICSPracticeTests</artifactId>
   <packaging>jar</packaging>
 <properties><maven.compiler.source>16</maven.compiler.source><maven.compiler.target>16</maven.compiler.target></properties>
@@ -25,7 +25,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                com.vortck.icspractice.App
+                                com.estyseesghosts.icspractice.App
                             </mainClass>
                         </manifest>
                     </archive>
