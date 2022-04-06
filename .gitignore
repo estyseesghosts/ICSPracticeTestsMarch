@@ -2,3 +2,7 @@
 *.java~
 *.un~
 *.class
+"./vscode"
+"./vscode/*"
+"./vscode/*.*"
+.gitignore
